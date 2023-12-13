@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+    
+}
+#navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#navbar nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+#navbar nav ul li{
+    padding-right: 4rem;
+}
+#navbar nav ul li a{
+    color: #37447E !important;
+}
+
+.navbar_loding_btn a{
+    color: #37447E !important;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+.navbar_buynow{
+    background-color: #111B47;
+    padding: 5px 52px;
+    cursor: pointer;
+}
+.navbar_buynow a{
+  color: white;
+  font-size: 13px;
+}
+.navbar_buynow:hover{
+  color: white;
+  background-color: #37447E;
+}
+.main_section_btn{
+    width: 61%;
+    display: flex;
+    padding-top: 3rem;
+}
+.home_btn{
+    background-color: #37447E;
+    padding: 6px 14px;
+    margin-right: 31px;
+    cursor: pointer;
+
+}
+.heading_section_home h2{
+    color: #091133;
+}
+.heading_section_home p{
+    color: #6F7CB2;
+}
+.home_btn a{
+   color: white;
+
+}
+.home_btn_section a{
+    color: #37447E;
+}
+.home_btn_section{
+    border: 2px solid black;
+    padding: 3px 29px;
+    cursor: pointer;
+}
+#home_section .container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#home_section .container .row{
+    display: flex;
+    align-items: center;
+}
+.heading_section_home{
+    width: 40%;
+    
+}
+.heading_section_home h2{
+    font-size: 2.5rem;
+}
+.home_img_section img{
+    width: 83%;
+}
+.title_section img{
+    margin-bottom: 2rem;
+}
+.title_section h4{
+    font-size: 20px;
+}
+.title_section p{
+    font-size: 13px;
+    width: 20rem;
+
+}
+.about_heading_section p{
+    color: #6F7CB2;
+}
+#About_section{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.about_title_section{
+    margin-top: 7rem;
+}
+.title_section{
+    margin-right: 76px;
+}
+.title_section p{
+    color: black;
+}
+.title_section h4{
+    color: #091133;
+}
+.about_section_img_main{
+    padding-left: 8rem !important;
+}
+#message_section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+.message_heading_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.message_heading_section h2{
+    color: #091133;
+}
+.message_heading_section p{
+    color: #6F7CB2;
+    width: 75%;
+}
