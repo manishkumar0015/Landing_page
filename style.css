@@ -82,10 +82,10 @@
     display: flex;
     align-items: center;
 }
-.heading_section_home{
+/* .heading_section_home{
     width: 40%;
     
-}
+} */
 .heading_section_home h2{
     font-size: 2.5rem;
 }
@@ -110,6 +110,9 @@
     padding-bottom: 4rem;
     padding-top: 4rem;
 }
+.about_heading_section{
+    width: 50%;
+}
 .about_title_section{
     margin-top: 7rem;
 }
@@ -130,6 +133,24 @@
     padding-bottom: 6rem;
 
 }
+.heading_section_home{
+    width: 50% !important;
+}
+.home_img_section{
+    width: 50% !important;
+}
+.about_heading_section{
+    width: 50% !important;
+}
+.about_section_img_main{
+    width: 50% !important;
+}
+.message_img_section{
+    width: 50% !important;
+}
+.message_heading_section{
+    width: 50% !important;
+}
 .message_heading_section{
     display: flex;
     flex-direction: column;
@@ -142,3 +163,93 @@
     color: #6F7CB2;
     width: 75%;
 }
+.message_btn{
+    background-color:  #37447E;
+    padding: 3px 18px;
+    margin-top: 3rem;
+}
+.message_btn a{
+    color: white;
+}
+#price_section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url(./img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 119rem;
+}
+.price_heading_section{
+    text-align: center;
+}
+.price_section_secound{
+    margin-top: 3rem;
+}
+.price_section_secound h2{
+    font-size: 2.5rem;
+}
+.price_section_secound p{
+    font-size: 13px;
+}
+.price_btn_section p{
+    font-size: 12px;
+}
+.price_btn_section {
+    margin-top: 4rem;
+}
+.price_btn_section a{
+    background-color: #37447E;
+    color: white;
+    padding: 4px 20px;
+}
+.footer_info a{
+    background-color: #37447E;
+    color: white;
+    padding: 8px 11px;
+}
+.footer_info p{
+    font-size: 13px;
+    color: gray;
+}
+.footer_info h3{
+    color: #37447E;
+    font-weight: bold;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 39px;
+}
+.footer_social ul{
+    list-style: none;
+    display: flex;
+    padding-right: 20rem;
+}
+.footer_social ul li{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.footer_social ul li a{
+    color: gray;
+}
+.footer_social{
+    border-top: 1px solid #cecece;
+}
+.social_footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 34px;
+    color: gray;
+    
+}
+.icon_section i{
+    padding-right: 31px;
+    cursor: pointer;
+}
+#footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url(./img/Rectangle\ \(1\).png);
+}
+
